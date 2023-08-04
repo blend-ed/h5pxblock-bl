@@ -77,6 +77,7 @@ function H5PPlayerXBlock(runtime, element, args) {
                 }
                 // uncomment to see all xAPI events triggered by H5P content
                 //console.log("xAPI event: ", event);
+                console.log('added css of h5p standalone');
             });
         }
     });
