@@ -12,8 +12,8 @@ function H5PPlayerXBlock(runtime, element, args) {
             const userObj = { 'name': args.user_full_name, 'mail': args.user_email };
             const options = {
                 h5pJsonPath: args.h5pJsonPath,
-                frameJs: 'https://cdn.jsdelivr.net/npm/h5p-standalone@3.5.1/dist/frame.bundle.js',
-                frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@3.5.1/dist/styles/h5p.css',
+                frameJs: 'https://cdn.jsdelivr.net/npm/h5p-standalone@3.6.0/dist/frame.bundle.js',
+                frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@3.6.0/dist/styles/h5p.css',
                 frame: args.frame,
                 copyright: args.copyright,
                 icon: args.icon,
@@ -77,7 +77,7 @@ function H5PPlayerXBlock(runtime, element, args) {
                 }
                 // uncomment to see all xAPI events triggered by H5P content
                 //console.log("xAPI event: ", event);
-                console.log('added css of h5p standalone');
+                console.log('change h5p standalone version');
             });
         }
     });
